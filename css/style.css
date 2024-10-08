@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+body{
+    font-family: Roboto, sans-serif;
+}
+
+button{
+    cursor: pointer;
+    border: none;
+    outline: none;/css
+}
+
+#header {
+    padding: 25px 0;
+    background: #6B6B6B;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-navbar a {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    padding: 0 20px;
+}
+
+#hero {
+    padding: 100px 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-general h1 {
+    font-size: 39px;
+    font-weight: 400;
+    color: #333333;
+}
+
+.hero-general p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #333333;
+    padding: 11px 0 30px 0;
+}
+
+.hero-general button {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000000;
+    padding: 15px 25px;
+}
+
+
+.hero-group h6 {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #00000080;
+    width: 320px;
+    text-align: center;
+}
+
+
+#stripe {
+    padding: 50px 0;
+    background: #D3D3D3;
+}
+
+.stripe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
