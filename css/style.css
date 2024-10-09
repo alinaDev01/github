@@ -19,7 +19,8 @@ body{
 button{
     cursor: pointer;
     border: none;
-    outline: none;/css
+    outline: none;
+    transition: .4s;
 }
 
 #header {
@@ -94,3 +95,36 @@ button{
 
 }
 
+
+#what {
+    padding: 50px 0;
+}
+
+
+.what {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.what-general h1  {
+    font-size: 32px;
+    font-weight: 400;
+    color: #000000;
+    padding-bottom: 14px;
+}
+
+.what-general p {
+    font-size: 15px;
+    font-weight: 400;
+    color: #000000;
+    width: 509px;
+}
+
+.what-group {
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    color: #777777;
+
+}
