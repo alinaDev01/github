@@ -403,4 +403,31 @@ button{
 
 }
 
+.footer-one {
+    background: #6B6B6B;
+    padding: 39px 0;
+}
 
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.footer-navbar a {
+    font-size: 13px;
+    color: #FFFFFF;
+    font-weight: 400;
+    padding: 0 25px;
+}
+
+
+.footer-two {
+    background: #111111;
+    color:#777777;
+    font-size: 12px;
+    font-weight: 400;
+    padding: 15px 0;
+
+}
